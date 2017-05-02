@@ -25,4 +25,4 @@ RUN chown gradle:gradle -R /usr/local/android-app/
 USER gradle
 
 # Build the app when run.
-ENTRYPOINT gradle assembleDebug
+ENTRYPOINT gradle assembleDebug && cp app/build/outputs/apk/app-debug.apk /apk-output/app-debug.apk
