@@ -23,5 +23,6 @@ This is a technical proof-of-concept that:
 
 Because we can. Also:
 - no need to set up Android SDK manually (apart from `adb`)
+- no need for Gradle scripts
 - complete build reproducibility
 - complete build isolation
