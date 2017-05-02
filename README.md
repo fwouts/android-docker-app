@@ -2,6 +2,6 @@
 
 How to run:
 ```
-docker build . -t fwouts/android-simple-app
-docker run fwouts/android-simple-app
+docker build . -t fwouts/android-docker-app
+docker run fwouts/android-docker-app
 ```
